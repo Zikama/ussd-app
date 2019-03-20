@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>USSD App Demo</title>
+</head>
+<style>
+</style>
+<body>
+<header>
+     <svg id="md-l" class="gb_he" focusable="false" viewBox="0 0 19 19">
+        <path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"></path>
+    </svg>
+    <h1>USSD App</h1> 
+    <button class="btn-mo" id="md-r">...</button>
+</header>
+<section>
+	<div class="container">
+		<form class="form" id="Balance">
+
+           <div class="dis-container">
+               <div class="dis-co-container">
+
+                    <input type="text" name="display" id="display">
+                    <input type="button" name="delete" id="erase" value="delete">
+
+                </div>
+            </div>
+            
+            <div class="btn-n-container" >
+                <input type="button" name="button" class="button-number" value="1">
+                <input type="button" name="button" class="button-number" value="2">
+                <input type="button" name="button" class="button-number" value="3">
+                <input type="button" name="button" class="button-number" value="4">
+                <input type="button" name="button" class="button-number" value="5">
+                <input type="button" name="button" class="button-number" value="6">
+                <input type="button" name="button" class="button-number" value="7">
+                <input type="button" name="button" class="button-number" value="8">
+                <input type="button" name="button" class="button-number" value="9">
+                <input type="button" name="button" class="button-number" value="*">
+                <input type="button" name="button" class="button-number" value="0">
+                <input type="button" name="button" class="button-number" value="#">
+
+                <div class="dailer-container">
+                    <input type="button" name="button" class="button-number" value="Dail" id="dailer">
+                </div>
+
+            </div>
+
+		</form>
+
+	</div>
+
+    <div class="modal">
+        <div class="nonlayer">
+            <span class="modal-content">
+                <p id="modal-message"><img src="assets/img/load.gif" width="50"></p>  
+                <span class="prompt-container"></span>
+                <div class="options-container">
+                    <button id="cansel">Cansel</button>
+                    <button id="ok">Ok</button>
+                </div>
+            </span>
+        </div>  
+    </div>
+    <div class="mdl">
+        <div class="mdl-content">
+            <div class="mdl-co-header"></div>
+            <p id="mdl-co-content"></p>
+        </div>
+    </div>
+    <div class="mdr">
+        <div class="mdr-content">
+            <div class="mdr-co-header"></div>
+            <p id="mdr-co-content">
+                <div class="filt-container-two">
+                    <button class="filters-b caret-down-b" id="theme">Themes</button>
+                    <div class="panel " id="pa-theme">
+                      <p> Do everything that i have done in this code to create an accordian . Note : You can use a for loop for making it much shorter if you make too many accordians on a single page . And rest is your own creativity , you can modify it in any manner .</p> </div>
+                    <button class="filters-b caret-down-b" id="m-popular">Most Popular</button>
+                    <div class="panel" id="pa-popular">
+                      <p> Do everything that i have done in this code to create an accordian . Note : You can use a for loop for making it much shorter if you make too many accordians on a single page . And rest is your own creativity , you can modify it in any manner .</p> </div>
+                    <button class="filters-b caret-down-b" id="type">Product Type</button>
+                    <div class="panel" id="pa-type">
+                      <p> Do everything that i have done in this code to create an accordian . Note : You can use a for loop for making it much shorter if you make too many accordians on a single page . And rest is your own creativity , you can modify it in any manner .</p> </div>
+                    <button class="filters-b caret-down-b" id="price">Price</button>
+                    <div class="panel" id="pa-price">
+                      <p> Do everything that i have done in this code to create an accordian . Note : You can use a for loop for making it much shorter if you make too many accordians on a single page . And rest is your own creativity , you can modify it in any manner .</p> </div>
+                    <button class="filters-b caret-down-b" id="Details">Details</button>
+                    <div class="panel" id="pa-Details">
+                        <p> Do everything that i have done in this code to create an accordian . Note : You can use a for loop for making it much shorter if you make too many accordians on a single page . And rest is your own creativity , you can modify it in any manner .</p> 
+                    </div>
+                </div>
+            </p>
+        </div>
+    </div>
+<span class="all_layer"></span>
+</section>
+
+
+
+<script src="lib/index.js"></script>
+<script src="../chat/progress-bar/index.js"></script> 
+<script src="./assets/theme/index.js"></script> 
+<script src="./assets/js/main.js"></script> 
+
+<script>
+</script>
+</body>
+</html>
