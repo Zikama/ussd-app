@@ -1,7 +1,7 @@
 
 g=document.querySelector.bind(document);
 gA = document.querySelectorAll.bind(document);
-const progressbar = new Progresser("transparent");
+// const progressbar = new Progresser("transparent");
 const myAccount = new BankAccount();
 myAccount.newAccount("Old Kampala","John");
 
